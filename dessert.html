@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dessert</title>
+	<style>
+		body {
+			text-align: center;
+			margin-top: 30px;
+			font-family: courier;
+			background-color: #FFF5E4;
+			color: #FF9494;
+		}
+		#dessertquestion {
+			font-size: 50px;
+			margin-bottom: 30px;
+			font-weight: bold;
+		}
+		.dessert-item {
+			display: inline-table;
+			margin: 10px;
+			vertical-align: top;
+			color: #FF9494;
+		}
+		.dessert-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+		.dessert-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id = "dessertquestion"> Co na deserek? </div>
+	
+	<div class = "dessert-selection">
+		<div class = "dessert-item">
+			<img src = "food/bubble.jpg" alt ="bubble herbata">
+			<label><input type="checkbox" name="dessert" value="bubble herbata"> bubble herbata</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/herbata.jpeg" alt ="herbata i ciasteczko">
+			<label><input type="checkbox" name="dessert" value="herbata i ciasteczko"> herbata i ciasteczko</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/beza.jpg" alt ="beza">
+			<label><input type="checkbox" name="dessert" value="beza"> beza</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/nalesnik.jpg" alt ="naleśnik">
+			<label><input type="checkbox" name="dessert" value="naleśnik cynamonka"> naleśnik cynamonka</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/silesija.jpg" alt ="silesija">
+			<label><input type="checkbox" name="dessert" value="silesija"> silesija</label>
+		</div>	
+		<div class = "dessert-item">
+			<img src = "food/zoladkowa.jpg" alt ="żoladkowa mango melon :)">
+			<label><input type="checkbox" name="dessert" value="żoladkowa mango melon :)"> żoladkowa mango melon :)</label>
+		</div>	
+	</div>
+	<button class = "button" onclick="location.href='activities.html'">WYBRAŁAM</button>
+
+</body>
+</html>
